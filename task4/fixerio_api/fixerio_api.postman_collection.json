@@ -1,0 +1,134 @@
+{
+	"info": {
+		"_postman_id": "11a60329-b016-48f3-af3c-b695c4cf3165",
+		"name": "fixerio_api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://data.fixer.io/api/latest?access_key=76a85d0968280ed98731c589ad223414",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://data.fixer.io/api/latest?access_key=76a85d0968280ed98731c589ad223414",
+					"protocol": "http",
+					"host": [
+						"data",
+						"fixer",
+						"io"
+					],
+					"path": [
+						"api",
+						"latest"
+					],
+					"query": [
+						{
+							"key": "access_key",
+							"value": "76a85d0968280ed98731c589ad223414"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://data.fixer.io/api/symbols?access_key=76a85d0968280ed98731c589ad223414",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://data.fixer.io/api/symbols?access_key=76a85d0968280ed98731c589ad223414",
+					"protocol": "http",
+					"host": [
+						"data",
+						"fixer",
+						"io"
+					],
+					"path": [
+						"api",
+						"symbols"
+					],
+					"query": [
+						{
+							"key": "access_key",
+							"value": "76a85d0968280ed98731c589ad223414"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://data.fixer.io/api/2013-12-24?access_key=76a85d0968280ed98731c589ad223414&base=EUR&symbols=BYN,EUR,RUB,GBP,JPY,USD",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://data.fixer.io/api/2013-12-24?access_key=76a85d0968280ed98731c589ad223414&base=EUR&symbols=BYN,EUR,RUB,GBP,JPY,USD",
+					"protocol": "http",
+					"host": [
+						"data",
+						"fixer",
+						"io"
+					],
+					"path": [
+						"api",
+						"2013-12-24"
+					],
+					"query": [
+						{
+							"key": "access_key",
+							"value": "76a85d0968280ed98731c589ad223414"
+						},
+						{
+							"key": "base",
+							"value": "EUR"
+						},
+						{
+							"key": "symbols",
+							"value": "BYN,EUR,RUB,GBP,JPY,USD"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://data.fixer.io/api/latest?access_key=76a85d0968280ed98731c589ad223414&base=EUR&symbols=BYN,EUR,RUB,GBP,JPY,USD",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://data.fixer.io/api/latest?access_key=76a85d0968280ed98731c589ad223414&base=EUR&symbols=BYN,EUR,RUB,GBP,JPY,USD",
+					"protocol": "http",
+					"host": [
+						"data",
+						"fixer",
+						"io"
+					],
+					"path": [
+						"api",
+						"latest"
+					],
+					"query": [
+						{
+							"key": "access_key",
+							"value": "76a85d0968280ed98731c589ad223414"
+						},
+						{
+							"key": "base",
+							"value": "EUR"
+						},
+						{
+							"key": "symbols",
+							"value": "BYN,EUR,RUB,GBP,JPY,USD"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
