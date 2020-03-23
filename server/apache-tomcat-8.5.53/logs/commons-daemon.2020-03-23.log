@@ -1,0 +1,6 @@
+[2020-03-23 01:24:43] [info]  [10252] Apache Commons Daemon procrun (1.2.2.0 64-bit) started.
+[2020-03-23 01:24:43] [info]  [10252] Deleting service...
+[2020-03-23 01:24:43] [error] [10252] Указанная служба не установлена.
+[2020-03-23 01:24:43] [info]  [10252] Delete service finished.
+[2020-03-23 01:24:43] [error] [10252] Apache Commons Daemon procrun failed with exit value: 9 (failed to delete service).
+[2020-03-23 01:24:43] [error] [10252] Указанная служба не установлена.
