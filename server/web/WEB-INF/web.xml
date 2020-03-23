@@ -43,4 +43,39 @@
         <servlet-name>PageServlet</servlet-name>
         <url-pattern>/page/*</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Test1Servlet</servlet-name>
+        <servlet-class>main.Test1Servlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>Test1Servlet</servlet-name>
+        <url-pattern>/test1/*</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Test2Servlet</servlet-name>
+        <servlet-class>main.Test2Servlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Test2Servlet</servlet-name>
+        <url-pattern>/test2/*</url-pattern>
+    </servlet-mapping>
+    
+    <filter>
+        <filter-name>TimeFilter</filter-name>
+        <filter-class>main.TimeFilter</filter-class>
+    </filter>
+    
+    <filter-mapping>
+        <filter-name>TimeFilter</filter-name>
+        <url-pattern>/status/*</url-pattern>
+        <url-pattern>/page/*</url-pattern>
+        <url-pattern>/test1/*</url-pattern>
+        <url-pattern>/test2/*</url-pattern>
+        <url-pattern>/get/*</url-pattern>
+        <url-pattern>/check/*</url-pattern>
+    </filter-mapping>
 </web-app>
