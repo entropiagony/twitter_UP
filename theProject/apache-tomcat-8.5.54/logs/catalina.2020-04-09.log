@@ -1,0 +1,37 @@
+09-Apr-2020 23:40:26.537 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.54
+09-Apr-2020 23:40:26.540 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 3 2020 14:06:10 UTC
+09-Apr-2020 23:40:26.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.54.0
+09-Apr-2020 23:40:26.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+09-Apr-2020 23:40:26.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+09-Apr-2020 23:40:26.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Apr-2020 23:40:26.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_241\jre
+09-Apr-2020 23:40:26.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_241-b07
+09-Apr-2020 23:40:26.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+09-Apr-2020 23:40:26.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\twitter_UP\theProject\apache-tomcat-8.5.54
+09-Apr-2020 23:40:26.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\twitter_UP\theProject\apache-tomcat-8.5.54
+09-Apr-2020 23:40:26.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\twitter_UP\theProject\apache-tomcat-8.5.54\conf\logging.properties
+09-Apr-2020 23:40:26.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Apr-2020 23:40:26.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-Apr-2020 23:40:26.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Apr-2020 23:40:26.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+09-Apr-2020 23:40:26.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\twitter_UP\theProject\apache-tomcat-8.5.54
+09-Apr-2020 23:40:26.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\twitter_UP\theProject\apache-tomcat-8.5.54
+09-Apr-2020 23:40:26.546 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\twitter_UP\theProject\apache-tomcat-8.5.54\temp
+09-Apr-2020 23:40:26.547 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_241\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Users\voda\AppData\Local\Microsoft\WindowsApps;C:\Users\voda\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.3\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.4\bin;C:\maven\bin;.]
+09-Apr-2020 23:40:26.947 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-Apr-2020 23:40:27.161 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+09-Apr-2020 23:40:27.177 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1069 ms
+09-Apr-2020 23:40:27.228 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Apr-2020 23:40:27.229 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.54
+09-Apr-2020 23:40:27.244 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\twitter_UP\theProject\apache-tomcat-8.5.54\webapps\docs]
+09-Apr-2020 23:40:27.681 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\twitter_UP\theProject\apache-tomcat-8.5.54\webapps\docs] has finished in [435] ms
+09-Apr-2020 23:40:27.682 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\twitter_UP\theProject\apache-tomcat-8.5.54\webapps\examples]
+09-Apr-2020 23:40:28.778 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\twitter_UP\theProject\apache-tomcat-8.5.54\webapps\examples] has finished in [1 096] ms
+09-Apr-2020 23:40:28.780 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\twitter_UP\theProject\apache-tomcat-8.5.54\webapps\host-manager]
+09-Apr-2020 23:40:28.819 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\twitter_UP\theProject\apache-tomcat-8.5.54\webapps\host-manager] has finished in [40] ms
+09-Apr-2020 23:40:28.820 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\twitter_UP\theProject\apache-tomcat-8.5.54\webapps\manager]
+09-Apr-2020 23:40:28.878 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\twitter_UP\theProject\apache-tomcat-8.5.54\webapps\manager] has finished in [58] ms
+09-Apr-2020 23:40:28.880 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [C:\twitter_UP\theProject\apache-tomcat-8.5.54\webapps\ROOT]
+09-Apr-2020 23:40:28.943 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\twitter_UP\theProject\apache-tomcat-8.5.54\webapps\ROOT] has finished in [63] ms
+09-Apr-2020 23:40:28.961 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Apr-2020 23:40:28.994 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1816 ms
