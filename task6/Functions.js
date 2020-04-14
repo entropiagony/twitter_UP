@@ -91,7 +91,7 @@
             return item.id == id
         });
 
-        if(post == undefined || validatePost(post) == false || index == -1){
+        if(!post || !validatePost(post) || index == -1){
             return false;
         }
 
