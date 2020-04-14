@@ -26,7 +26,7 @@
 
     function getPosts(skip = 0, top = 10, filterConfig){
         let filteredPosts = [];
-        if(filterConfig!=undefined){
+        if(!filterConfig){
             filteredPosts = posts.filter(filterByProperties, filterConfig);
         }
         else{
