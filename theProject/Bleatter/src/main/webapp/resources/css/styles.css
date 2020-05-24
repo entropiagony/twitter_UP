@@ -1,0 +1,314 @@
+body{
+    background-color: #F1F1F1;
+    overflow: scroll;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+    background: #E3E3E3;
+    margin-bottom: 0px;
+}
+
+.main_page_link{
+    position: absolute;
+    width: 63px;
+    height: 63px;
+    left: 128px;
+    top: 4px;
+}
+
+.logo{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.avatar_container{
+    position: absolute;
+    width: 63px;
+    height: 63px;
+    left: 1276px;
+    top: 4px;
+
+}
+
+.user_page_link{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+}
+
+.avatar{
+    position: absolute;
+    width: 63px;
+    height: 63px;
+}
+
+.avatar_circle{
+    position: absolute;
+    width: 63px;
+    height: 63px;
+    z-index: 1;
+}
+
+.filter_container{
+    top: 15%;
+    width: 15%;
+    right: 85%;
+    position: relative;
+    background-color: #F1F1F1;
+}
+
+.feed_container{
+    top: 72px;
+    left: 320px;
+    width: 800px;
+    min-height: 100vh;
+    position: relative;
+    background-color: #EDEDED;
+}
+
+
+.filter_button{
+    display: inline-block;
+    left: 56px;
+    top: 205px;
+    width: 240px;
+    height: 39px;
+    position: fixed;
+    background-image: url("../images/filter.png");
+    background-position: right;
+    border:none;
+}
+
+.filter_pic{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.create_post_menu{
+    width: 100%;
+    height: 138px;
+    background-color: #DADADA;
+    margin-top: -8px;
+}
+
+.menu_avatar_container{
+    width: 63px;
+    height: 63px;
+    padding-left: 19px;
+    padding-top: 19px;
+    float: left;
+}
+
+
+.hashtag_button{
+    width: 242px;
+    height: 43px;
+    background-image: url("../images/hashtags.png");
+    border: none;
+    margin-left: 45px;
+}
+
+
+.post_button{
+    width: 105px;
+    height: 28px;
+    margin-top: 4px;
+    margin-left: 614px;
+    background-image: url("../images/bleat.png");
+    border:none;
+
+    font-family: Akzidenz-Grotesk Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+}
+
+
+
+
+
+.new_post_button{
+    width: 242px;
+    height: 40px;
+    margin-left: 26px;
+    display: inline-block;
+    margin-top: 42px;
+
+    font-family: Akzidenz-Grotesk Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    color: #000000;
+}
+
+.posts_feed{
+    background-color: #EDEDED;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.post{
+    background: #C4C4C4;
+    position: relative;
+    width: 680px;
+    margin-bottom: 20px;
+    height: fit-content;
+}
+
+.user_avatar_container{
+    position: absolute;
+    width: 63px;
+    height: 63px;
+    padding-left: 19px;
+    padding-top: 19px;
+}
+
+.nickname{
+    position: relative;
+
+    left: -15px;
+    top: 70px;
+    width: fit-content;
+    font-family: Akzidenz-Grotesk Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 13px;
+    text-align: center;
+    margin: 0;
+    color: #000000;
+}
+
+.username{
+    position: relative;
+
+    left: 114px;
+    top: 14px;
+    width: fit-content;
+    font-family: Akzidenz-Grotesk Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 31px;
+    margin: 0;
+    color: #000000;
+
+}
+
+.date{
+    position: absolute;
+
+    right: 24px;
+    top: 24px;
+    width: fit-content;
+    font-family: Akzidenz-Grotesk Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    margin: 0;
+    color: #555555;
+}
+
+.post_text{
+    position: relative;
+
+    width: fit-content;
+    height: fit-content;
+    margin: 0;
+    font-family: Akzidenz-Grotesk Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 14px;
+
+    color: #000000;
+}
+
+.content{
+    padding-top: 40px;
+    padding-left: 114px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.content_img{
+    position: relative;
+    width: 400px;
+    height: 400px;
+}
+
+.icons_container{
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    margin-top: 30px;
+}
+
+.like{
+    width: 28px;
+    height: 28px;
+    margin-left: 250px;
+    margin-right: 50px;
+}
+
+.repost{
+    width: 28px;
+    height: 28px;
+    margin-right: 50px;
+}
+
+.comment{
+    width: 28px;
+    height: 28px;
+    margin-right: 50px;
+}
+
+.hashtags{
+    font-family: Akzidenz-Grotesk Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 31px;
+}
+
+.load_more_button{
+    width: 231px;
+    height: 56px;
+    background-image: url("../images/loadbutton.png");
+    border: none;
+}
+
+footer{
+    margin-top: 20px;
+    background-color: #E3E3E3;
+    width: 100%;
+    height: 66px;
+
+    font-family: Akzidenz-Grotesk Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+
+    color: #000000;
+
+    text-align: center;
+}
+
+
